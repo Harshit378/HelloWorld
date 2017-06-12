@@ -23,7 +23,7 @@ public class Hooks{
 	Scenario scenario;
 
 	public static WebDriver getDriver() throws MalformedURLException, InterruptedException {
-		System.setProperty("webdriver.chrome.driver", "D:/HARSHIT_backup/CM/lib/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:/Git/PassionTeaCucumber/lib/chromedriver.exe");
 		// driver = new FirefoxDriver();
 		if (driver == null) {
 			ChromeOptions co = new ChromeOptions();
@@ -31,7 +31,6 @@ public class Hooks{
 			co.addArguments("--disable-popup-blocking");
 			co.addArguments("--disable-infobars");
 			driver = new ChromeDriver(co);
-			// driver = new FirefoxDriver();
 			driver.manage().getCookies();
 		}
 		return driver;

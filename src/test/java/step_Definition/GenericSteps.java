@@ -19,12 +19,11 @@ import cucumber.api.java.en.When;
 public class GenericSteps {
 	// WebDriver driver = new FirefoxDriver();
 	public WebDriver driver;
-	ObjectMap objMap = new ObjectMap("D:/0995_Workspace/CM/src/test/java/ObjectMap.Properties");
+	ObjectMap objMap = new ObjectMap("D:/Git/PassionTeaCucumber/src/test/java/ObjectMap.Properties");
 	JavascriptExecutor js = (JavascriptExecutor) driver;
 
 	public GenericSteps() throws MalformedURLException, InterruptedException {
 		driver = Hooks.getDriver();
-
 	}
 
 	@Given("^User navigates to \"(.*?)\"$")
@@ -58,16 +57,16 @@ public class GenericSteps {
 		Thread.sleep(3000);
 	}
 
-	/*@And("^Mouse Hover to \"(.*?)\"$")
-	public void Mouse_Hover_to(String arg1) throws Throwable {
-		Actions action = new Actions(driver);
-		WebElement we = driver.findElement(ObjectMap.getLocator(arg1));
-		// js.executeScript("arguments[0].setAttribute('style,'border: solid 2px
-		// yellow'');", arg1);
-
-		action.moveToElement(we).moveToElement(driver.findElement(ObjectMap.getLocator(arg1))).click().build()
-				.perform();
-	}*/
+	/*
+	 * @And("^Mouse Hover to \"(.*?)\"$") public void Mouse_Hover_to(String
+	 * arg1) throws Throwable { Actions action = new Actions(driver); WebElement
+	 * we = driver.findElement(ObjectMap.getLocator(arg1)); //
+	 * js.executeScript("arguments[0].setAttribute('style,'border: solid 2px //
+	 * yellow'');", arg1);
+	 * 
+	 * action.moveToElement(we).moveToElement(driver.findElement(ObjectMap.
+	 * getLocator(arg1))).click().build() .perform(); }
+	 */
 
 	@Then("^Verify \"(.*?)\" is displayed as \"(.*?)\"$")
 	public void verify_is_displayed_as(String arg1, String arg2) throws Throwable {
@@ -105,21 +104,18 @@ public class GenericSteps {
 		for (int i = 1; i <= links.size(); i = i + 1)
 
 		{
-
 			System.out.println(links.get(i).getText());
-
 		}
 
 	}
 
-	/*@Then("^Scroll to \"(.*?)\"$")
-	public void Scroll_to(String arg1) throws Throwable {
-		WebElement element = driver.findElement(ObjectMap.getLocator(arg1));
-		Actions actions = new Actions(driver);
-		actions.moveToElement(element);
-		// actions.click();
-		actions.perform();
-	}*/
+	/*
+	 * @Then("^Scroll to \"(.*?)\"$") public void Scroll_to(String arg1) throws
+	 * Throwable { WebElement element =
+	 * driver.findElement(ObjectMap.getLocator(arg1)); Actions actions = new
+	 * Actions(driver); actions.moveToElement(element); // actions.click();
+	 * actions.perform(); }
+	 */
 
 	@Given("^there are \"(.*?)\" cup coffee left in the machine$")
 	public void there_are_cup_coffee_left_in_the_machine(String arg1) throws Throwable {
@@ -183,7 +179,7 @@ public class GenericSteps {
 
 	@Given("^Open windows Word application$")
 	public void open_windows_Word_application() throws Throwable {
-		
+
 		System.out.println("Hello");
 	}
 }
