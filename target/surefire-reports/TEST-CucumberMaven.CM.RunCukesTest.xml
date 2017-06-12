@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="28" failures="0" name="CucumberMaven.CM.RunCukesTest" time="1.075" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="&apos;D:\0995_Workspace\CM\Features&apos; --tags @PassionTea_Demo_590055b11a8ae5326b9476c7 --plugin &apos;json:D:\0995_Workspace\CM\Report\PassionTea_Demo_1493194215409.json&apos;"/>
+    <property name="sun.boot.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\0995_Workspace\CM"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="x86"/>
+    <property name="java.io.tmpdir" value="C:\Users\HARSHI~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\Software\apache-maven-3.1.1\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\bin;C:/Program Files (x86)/Java/jdk1.8.0_121/bin/../jre/bin/client;C:/Program Files (x86)/Java/jdk1.8.0_121/bin/../jre/bin;C:/Program Files (x86)/Java/jdk1.8.0_121/bin/../jre/lib/i386;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Java\jdk1.8.0_121\bin;C:\Program Files\TortoiseSVN\bin;D:\AFT_Branch_WIP\library\core\libs;C:\Program Files (x86)\HP\Unified Functional Testing\bin;D:\AFT_Branch_WIP\library\core;D:\Software\sdk\platform-tools;D:\Software\sdk\tools;C:\Program Files\Amazon\AWSCLI\;D:\Software\apache-maven-3.1.1\bin;C:\Users\harshit_tiwari\Downloads\curl-7.53.1\src;C:\Users\harshit_tiwari\AppData\Local\Microsoft\WindowsApps;C:\InsideEdge_xAFT\library\core\libs;C:\InsideEdge_xAFT\library;D:\Software\eclipse-jee-neon-R-win32\eclipse;;C:\Program Files (x86)\HP\Unified Functional Testing\\bin;C:\Program Files (x86)\HP\Unified Functional Testing\\bin;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot Client Compiler"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\harshit_tiwari"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Harshit_Tiwari"/>
+    <property name="java.class.path" value="D:\Software\apache-maven-3.1.1\boot\plexus-classworlds-2.5.1.jar"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="32"/>
+    <property name="java.home" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Dcucumber.options=&apos;D:\0995_Workspace\CM\Features&apos; --tags @PassionTea_Demo_590055b11a8ae5326b9476c7 --plugin &apos;json:D:\0995_Workspace\CM\Report\PassionTea_Demo_1493194215409.json&apos;"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files (x86)\Java\jdk1.8.0_121\jre\classes;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes;C:\Program Files (x86)\HP\Unified Functional Testing\bin\java_shared\classes\jasmine.jar"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\Software\apache-maven-3.1.1"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86"/>
+  </properties>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="Given User navigates to &quot;http://www.practiceselenium.com/menu.html&quot;" time="0.004"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User clicks &quot;Menu&quot; button" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User clicks &quot;letstalktea&quot; button" time="0.001"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;PassionTea User&quot; in &quot;Name&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;sampleUser@gmail.com&quot; in &quot;Email&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;Executing&quot; in &quot;Subject&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;BackGround Scenario&quot; in &quot;Message&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User clicks &quot;Submit&quot; button" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="Given User navigates to &quot;http://www.practiceselenium.com/menu.html&quot;" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User clicks &quot;Menu&quot; button" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User clicks &quot;letstalktea&quot; button" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;Venkatraman&quot; in &quot;Name&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;nv.ram82@gmail.com&quot; in &quot;Email&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;Hello&quot; in &quot;Subject&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;Need some Info&quot; in &quot;Message&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="Then User clicks &quot;Submit&quot; button" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="Given User navigates to &quot;http://www.practiceselenium.com/welcome.html&quot;" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User clicks &quot;HerbalTeacollection&quot; button" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User clicks &quot;herbalteacheckout&quot; button" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;nv.ram82@gmail.com&quot; in &quot;Emailco&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;Venkatraman&quot; in &quot;Nameco&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;Number 456 Hyderabad&quot; in &quot;Addressco&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User select &quot;Mastercard&quot; from the &quot;cardtype&quot; dropdown list" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;564546789823&quot; in &quot;cardnumber&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;iambuying tea&quot; in &quot;cardholdername&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="And User enters &quot;544&quot; in &quot;verificationcode&quot; field" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="Then User clicks &quot;placeorder&quot; button" time="0"/>
+  <testcase classname="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" name="| http://www.practiceselenium.com/menu.html | Venkatraman | nv.ram82@gmail.com | Hello | Need some Info |" time="1.07"/>
+</testsuite>
