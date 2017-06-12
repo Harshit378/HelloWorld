@@ -24,16 +24,16 @@ Then  User clicks "Submit" button
 Given  User navigates to "http://www.practiceselenium.com/welcome.html"
 And  User clicks "HerbalTeacollection" button
 And  User clicks "herbalteacheckout" button
-And  User enters "nv.ram82@gmail.com" in "Emailco" field
-And  User enters "Venkatraman" in "Nameco" field
+And  User enters "email@gmail.com" in "Emailco" field
+And  User enters "John Foe" in "Nameco" field
 And  User enters "Number 456 Hyderabad" in "Addressco" field
-And  User select "Mastercard" from the "cardtype" dropdown list
+And  User select "Mistercard" from the "cardtype" dropdown list
 And  User enters "564546789823" in "cardnumber" field
 And  User enters "iambuying tea" in "cardholdername" field
 And  User enters "544" in "verificationcode" field
 Then  User clicks "placeorder" button
 Examples:
 | URL| Name| Email| Subject| Message| 
-| http://www.practiceselenium.com/menu.html| Venkatraman| nv.ram82@gmail.com| Hello| Need some Info| 
+| http://www.practiceselenium.com/menu.html| John Foe| mail@gmail.com| Hello| Need some Info| 
 | http://www.practiceselenium.com/menu.html| Jon Doe| somegmailaccount@gmail.com| Goodbye| Need some more info|
 
