@@ -35,4 +35,5 @@ Then  User clicks "placeorder" button
 Examples:
 | URL| Name| Email| Subject| Message| 
 | http://www.practiceselenium.com/menu.html| Venkatraman| nv.ram82@gmail.com| Hello| Need some Info| 
+| http://www.practiceselenium.com/menu.html| Jon Doe| somegmailaccount@gmail.com| Goodbye| Need some more info|
 
