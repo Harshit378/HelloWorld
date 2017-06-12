@@ -27,11 +27,12 @@ public class Hooks{
 		// driver = new FirefoxDriver();
 		if (driver == null) {
 			ChromeOptions co = new ChromeOptions();
-			co.addArguments("disable-infobars");
+			co.addArguments("--start-maximized");
+			co.addArguments("--disable-popup-blocking");
+			co.addArguments("--disable-infobars");
 			driver = new ChromeDriver(co);
 			// driver = new FirefoxDriver();
 			driver.manage().getCookies();
-			driver.manage().window().maximize();
 		}
 		return driver;
 	}
