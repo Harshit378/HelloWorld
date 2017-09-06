@@ -9,3 +9,4 @@ Feature: OpenSameBrowser_Demo
       | https://www.google.com                    |
       | https://www.bing.com                      |
       | https://www.yahoo.com                     |
+      | https://www.outlook.live.com              |
